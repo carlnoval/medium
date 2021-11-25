@@ -1,0 +1,90 @@
+
+
+body {
+  margin: 0px;
+  color: #494949;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  font-family: 'Lora', serif;
+}
+
+div {
+  display: block;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: Montserrat , sans-serif;
+  color: #A0A0A0;
+  font-weight: normal;
+  font-size: 1.5em;
+}
+
+.banner {
+  background-image: url("https://source.unsplash.com/random/1700x500");
+  padding: 120px 0;
+  color: whitesmoke;
+  background-size: cover;
+}
+
+.banner h1 {
+  font-size: 40px;
+}
+
+.banner p {
+  opacity: 0.8;
+  font-size: 30px;
+  margin: 30px 0;
+  font-style: italic;
+}
+
+.container {
+  margin: 50px auto;
+}
+
+/* detect these media 576px, 768px, 992px and 1200px */
+@media (max-width: 1200px) {
+  /* For a screen < 1200px, this CSS will be read */
+  .container {
+    width: 1000px;
+  }
+}
+
+@media (max-width: 992px) {
+  /* For a screen < 992px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* For a screen < 768px, this CSS will be read */
+  .container {
+      width: 500px;
+  }
+}
+
+@media (max-width: 576px) {
+  /* For a screen < 576px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.link-medium {
+  text-decoration: none;
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+  color: #636363;
+  font-weight: lighter;
+  font-size: 25px;
+  font-style: italic;
+}
+
+.link-medium:hover {
+  background-image: linear-gradient(to bottom, rgba(125, 255, 179, 1), rgba(125, 255, 179, 1));
+}
